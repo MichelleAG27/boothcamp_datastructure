@@ -61,6 +61,9 @@ int main()
     printStudent(s1);
     removeStudent(s1);
     printf("After Remove : \n");
+    //Student *s3 = createStudent("Bryan", 3.90, "COMP6049", 95); 
+    // kalau declare line 64 terus comment dihilangkan nanti automatis yg di s1 namanya dan data yg lain bakal gantikan yg s1 
+    
     printStudent(s1);//Print setelah remove termasuk undefined behaviour, mengakses memori ilegal
     // NOTE: Jangan print nilai yg udh di free.
     return 0;
